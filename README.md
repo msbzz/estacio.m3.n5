@@ -23,12 +23,25 @@
 
 👉 1º Procedimento | Camadas de Persistência e Controle
 
-- Configurar do GlassFish 6.2.1 
-- Configuração da conexão com SQL Server e criação no pool de conexão do glassfish
-- Criar o aplicativo corporativo 
-- Definir as camadas de persistência e controle no projeto
-- Criar um Servlet de teste no projeto CadastroEE-war
-- Executar o projeto  
+1 - Criar o projeto do servidor, utilizando o nome
+CadastroServer, do tipo console.
+
+2 - Criar a camada de persistência em CadastroServer.
+
+3 - Criar a camada de controle em CadastroServer 
+
+4 - No pacote principal, cadastroserver, adicionar a Thread de
+comunicação, com o nome CadastroThread.
+
+5 - Implementar a classe de execução (main)
+
+6 - Criar o cliente de teste, utilizando o nome CadastroClient,
+do tipo console, no modelo Ant padrão
+
+7 - Configurar o projeto do cliente para uso das entidades
+
+8 - Testar o sistema criado, com a execução dos dois projetos.
+
 - Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
       
    ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/1c803077-00dc-4d55-8897-c216b23b2ffb)
