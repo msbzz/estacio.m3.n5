@@ -53,34 +53,23 @@ do tipo console, no modelo Ant padrão
 
  👉 2º Procedimento | Servidor Completo e Cliente Assíncrono 
 
- - Criar um Servlet com o nome ServletProdutoFC, no projeto CadastroEE-
-   war
- - Criar a página de consulta, com o nome ProdutoLista.jsp
- - Criar a página de cadastro, com o nome ProdutoDados.jsp
- - Testar as funcionalidades do sistema
- - Gerar Relatório discente de acompanhamento (RDA Part2.pdf)
-    
-   
-  ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/d7963d63-cd9c-491c-a411-001ec2b0dd12)
+ - Criar uma segunda versão da Thread de comunicação, noprojeto do servidor, com o acréscimo da funcionalidade
+ 
+ - Acrescentar os controladores necessários na classeprincipal, método main, e trocar a instância da Thread anterior pela nova Thread no loop de conexão.
 
+- Criar o cliente assíncrono, utilizando o nome CadastroClientV2, do tipo console.
 
-👉 3º Procedimento | Melhorando o Design da Interface
+- Criar a janela para apresentação das mensagens descendente de JDialog 
 
+-  Definir a Thread de preenchimento assíncrono, com o nome ThreadClient
+-  
+- Gerar Relatório discente de acompanhamento (RDA Part2.pdf) 
 
-  - Incluir as bibliotecas do framework Bootstrap nos arquivos ProdutoLista.jsp
-    e ProdutoDados.jsp
-  - Modificar as características de ProdutoLista.jsp
+  - Resutaldos esperados  
 
-  - Modificar as características de ProdutoDados.jsp
-  - Gerar Relatório discente de acompanhamento (RDA Part3.pdf) 
-    
-![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/d9e5d083-0db6-4ca5-b955-3f3bdb8474ca)
-![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/04c8b4b9-69e7-4a11-81d9-b2a98b94ef11)
+![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/3f5794a1-1ed9-4493-b921-8319ebbee116)
 
-
- - Os relatórios podem ser encontrados na pasta raiz
-
-   ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/27ff4f90-83f2-4a9f-9ab5-ae30ab2fdf68)
+![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/9d66b014-4716-4aff-99b9-ee0de85e7906)
 
 - Observaçoes
    - A IDE utilizada foi Intellij IDEA Ultimate
@@ -93,6 +82,6 @@ do tipo console, no modelo Ant padrão
        
      
      ## Especificação
-    https://sway.office.com/xixE9HxcyecGGJa3?ref=Link&loc=play
     
+    https://sway.office.com/ertZuvZwxHwQpwAS?ref=Link&loc=play
    
