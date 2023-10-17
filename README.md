@@ -21,7 +21,7 @@
 
 - Os procedimentos são divididos em duas etapas
 
-👉 1º Procedimento | Camadas de Persistência e Controle
+👉 1º Procedimento | Criando o Servidor e Cliente de Teste
 
  - Criar o projeto do servidor, utilizando o nome
 CadastroServer, do tipo console.
