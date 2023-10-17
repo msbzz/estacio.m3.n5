@@ -62,7 +62,7 @@ do tipo console, no modelo Ant padrão
 - Criar a janela para apresentação das mensagens descendente de JDialog 
 
 -  Definir a Thread de preenchimento assíncrono, com o nome ThreadClient
--  
+   
 - Gerar Relatório discente de acompanhamento (RDA Part2.pdf) 
 
   - Resutaldos esperados  
@@ -75,11 +75,7 @@ do tipo console, no modelo Ant padrão
    - A IDE utilizada foi Intellij IDEA Ultimate
    - O jdk utilizado foi o 17
    - A execução do trabalho esta dividido em duas partes
-     - parte 1
-        - http://localhost:8080/CadastroEE-WAR/ServletProduto
-    - parte 2 e 3   
-        - http://localhost:8080/CadastroEE-WAR/ServletProdutoFC 
-       
+        
      
      ## Especificação
     
