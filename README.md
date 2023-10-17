@@ -23,28 +23,31 @@
 
 👉 1º Procedimento | Camadas de Persistência e Controle
 
-1 - Criar o projeto do servidor, utilizando o nome
+ - Criar o projeto do servidor, utilizando o nome
 CadastroServer, do tipo console.
 
-2 - Criar a camada de persistência em CadastroServer.
+- Criar a camada de persistência em CadastroServer.
 
-3 - Criar a camada de controle em CadastroServer 
+- Criar a camada de controle em CadastroServer 
 
-4 - No pacote principal, cadastroserver, adicionar a Thread de
+- No pacote principal, cadastroserver, adicionar a Thread de
 comunicação, com o nome CadastroThread.
 
-5 - Implementar a classe de execução (main)
+- Implementar a classe de execução (main)
 
-6 - Criar o cliente de teste, utilizando o nome CadastroClient,
+- Criar o cliente de teste, utilizando o nome CadastroClient,
 do tipo console, no modelo Ant padrão
 
-7 - Configurar o projeto do cliente para uso das entidades
+- Configurar o projeto do cliente para uso das entidades
 
-8 - Testar o sistema criado, com a execução dos dois projetos.
+- Testar o sistema criado, com a execução dos dois projetos.
 
 - Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
+
+  -Resultado esperado
       
-   ![image](https://github.com/msbzz/estacio.m3.n4/assets/44148209/1c803077-00dc-4d55-8897-c216b23b2ffb)
+  ![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/549dbb5f-2961-443c-a399-1872585e38d1)
+
 
 
 
