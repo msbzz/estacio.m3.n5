@@ -71,6 +71,11 @@ do tipo console, no modelo Ant padrão
 
 ![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/9d66b014-4716-4aff-99b9-ee0de85e7906)
 
+- Os relatórios podem ser encontrados na pasta raiz
+
+![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/3c58710b-e2e9-475c-82f7-85ba5a72c9be)
+
+ 
 - Observaçoes
    - A IDE utilizada foi Intellij IDEA Ultimate
    - O jdk utilizado foi o 17
