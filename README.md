@@ -51,7 +51,7 @@ do tipo console, no modelo Ant padrão
 
 
 
- 👉 2º Procedimento | Interface Cadastral com Servlet e JSPs
+ 👉 2º Procedimento | Servidor Completo e Cliente Assíncrono 
 
  - Criar um Servlet com o nome ServletProdutoFC, no projeto CadastroEE-
    war
