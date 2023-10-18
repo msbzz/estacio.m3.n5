@@ -42,7 +42,7 @@ public class MovimentoJpaController {
 
     public List<MovimentoDTO> findAllMovimentos() {
         return getEntityManager().createQuery(
-                "SELECT m.idMovimento,p.nome,m.quantidade,p.precoVenda,m.tipo FROM Movimento m INNER JOIN Produto p ON m.idProduto = p.idProduto"
+                "SELECT m.idMovimento,p.nome,m.quantidade,m.valorUnitario,m.tipo FROM Movimento m INNER JOIN Produto p ON m.idProduto = p.idProduto"
                 , MovimentoDTO.class).getResultList();
     }
 

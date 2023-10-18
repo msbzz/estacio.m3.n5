@@ -58,7 +58,9 @@ public class CadastroClientV2 {
                         int idProduto = Integer.parseInt(keyboard.readLine());
                         System.out.print("Quantidade: ");
                         int quantidade = Integer.parseInt(keyboard.readLine());
-
+                        System.out.print("Valor unitário: ");
+                        String valorUnitarioStr = keyboard.readLine();
+                        BigDecimal valorUnitario = new BigDecimal(valorUnitarioStr);
 
                         String tipo="";
 
@@ -74,6 +76,7 @@ public class CadastroClientV2 {
                         movimento.setIdPessoa(idPessoa);
                         movimento.setIdProduto(idProduto);
                         movimento.setQuantidade(quantidade);
+                        movimento.setValorUnitario(valorUnitario);
 
                         MovimentoJpaController movimentoController = new MovimentoJpaController();
                         movimentoController.create(movimento);
