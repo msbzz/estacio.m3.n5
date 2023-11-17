@@ -34,8 +34,10 @@ public class CadastroThread extends Thread {
             Usuario user = ctrlUsu.findUsuario(login, senha);
             if (user == null) {
                 out.writeObject("Usuário inválido.");
-                s1.close();
+                //s1.close();
                 return;
+            }else{
+                out.writeObject("Usuário válido.");
             }
 
             // Iniciar o loop de resposta
@@ -45,8 +47,14 @@ public class CadastroThread extends Thread {
                     // Suponho que o método em ctrl retorne uma lista de produtos
                     out.writeObject(ctrl.getAllProducts());
                 }
-                // Você pode expandir isso para outros comandos conforme necessário
+
+                if ("QUIT".equals(command)) {
+                    break;  // Sair do loop se o comando de término for recebido
+                }
+
             }
+
+            s1.close();
         } catch (Exception e) {
             e.printStackTrace();
         }

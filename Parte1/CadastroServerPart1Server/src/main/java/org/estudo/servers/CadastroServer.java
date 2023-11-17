@@ -2,7 +2,6 @@ package org.estudo.servers;
 
 import org.estudo.controller.ProdutoJpaController;
 import org.estudo.controller.UsuarioJpaController;
-import org.estudo.servers.CadastroThread;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -11,7 +10,7 @@ import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class CadastroServerV1 {
+public class CadastroServer {
     public static void main(String[] args) {
 
         try {
