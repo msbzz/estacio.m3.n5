@@ -1,0 +1,47 @@
+CREATE TABLE Pessoa (
+    ID SERIAL PRIMARY KEY,
+    Nome VARCHAR(255),
+    Logradouro VARCHAR(255),
+    Cidade VARCHAR(255),
+    Estado CHAR(2),
+    Telefone VARCHAR(255),
+    Email VARCHAR(255)
+);
+
+CREATE TABLE Usuario (
+    IDUsuario SERIAL PRIMARY KEY,
+    Login VARCHAR(255),
+    Senha VARCHAR(255)
+);
+
+CREATE TABLE PessoaFisica (
+    IDPessoa INT PRIMARY KEY,
+    CPF VARCHAR(255),
+    FOREIGN KEY (IDPessoa) REFERENCES Pessoa(ID)
+);
+
+CREATE TABLE PessoaJuridica (
+    IDPessoa INT PRIMARY KEY,
+    CNPJ VARCHAR(255),
+    FOREIGN KEY (IDPessoa) REFERENCES Pessoa(ID)
+);
+
+CREATE TABLE Produto (
+    IDProduto SERIAL PRIMARY KEY,
+    Nome VARCHAR(255),
+    Quantidade INT,
+    PrecoVenda VARCHAR(255)
+);
+
+CREATE TABLE Movimento (
+    IDMovimento SERIAL PRIMARY KEY,
+    IDUsuario INT,
+    IDPessoa INT,
+    IDProduto INT, 
+    Quantidade VARCHAR(255),
+    Tipo CHAR(1),
+    ValorUnitario VARCHAR(255),
+    FOREIGN KEY (IDUsuario) REFERENCES Usuario(IDUsuario),
+    FOREIGN KEY (IDPessoa) REFERENCES Pessoa(ID),
+    FOREIGN KEY (IDProduto) REFERENCES Produto(IDProduto)
+);

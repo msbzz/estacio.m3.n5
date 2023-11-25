@@ -44,6 +44,8 @@ do tipo console, no modelo Ant padrão
 
 - Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
 
+## Ativando o projeto parte 1
+
   - Essa parte do trabalho esta dividido em dois projetos separados onde o projeto da thraad que estará atuando como servidor estará na pasta "CadastroServerPart1Server" e outro projeto que é a thread cliente que esta em "CadastroServerPart1Client"
 
    ![image](Parte1/assets/image2.png)
@@ -62,6 +64,19 @@ do tipo console, no modelo Ant padrão
       
   ![image](Parte1/assets/image1.png)
 
+  # A Banco e sua conexão
+
+   - Considerando a existência do banco sql server conforme em especificação. a configuração da conexão é feita no arquivo persistence.xml conforme indicado abaixo
+   
+    - localização 
+
+   ![image](Parte1/assets/image6.png)
+
+    - configurações 
+
+   ![image](Parte1/assets/image6.png)
+
+
  👉 2º Procedimento | Servidor Completo e Cliente Assíncrono 
 
  - Criar uma segunda versão da Thread de comunicação, noprojeto do servidor, com o acréscimo da funcionalidade
@@ -75,6 +90,15 @@ do tipo console, no modelo Ant padrão
 -  Definir a Thread de preenchimento assíncrono, com o nome ThreadClient
    
 - Gerar Relatório discente de acompanhamento (RDA Part2.pdf) 
+
+## Ativando o projeto parte 2
+
+  - Essa parte do trabalho deveria estar dividido em dois projetos porem devido a um problema não superado que foi a grande dificulde em se ter cadastro do movimento juntamente com a opção de listagem utilizando no mesmo objeto, mais especificamente em "Object receivedObject", na thread server foi dividida em duas threads servers sendo uma para listagem e verificação do usuario e outra para cadastro. Sendo assim a terceira foi para cliente que tem todas essas opções.
+
+  - Outro ponteo foi que essa solução fez com que o numero de conexões ao banco aumentasse e devido a isso surgiu problema de limitação de conexões ao sql server express. A soluçãofoi adotar o postgres, que funcionou sem problemas.
+
+    
+
 
   - Resutaldos esperados  
 
