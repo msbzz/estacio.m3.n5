@@ -113,15 +113,29 @@ do tipo console, no modelo Ant padrão
   ## Banco e sua conexão
 
     - Etapas de configuração do postgres
-      - Necessária a existencia da instalação já ativada para que se faça a criação do banco e execução do script das tabelas que pode ser encontrado na pasta info conforme figura abaixo
+      
+      - Necessária a existencia da instalação já ativada para que se faça a criação do 
+      banco e execução do script das tabelas que pode ser encontrado na 
+      pasta info conforme figura abaixo
      
       - pasta info
 
-      ![image](Parte2/assets/image4.png)
+   ![image](Parte2/assets/image4.png)
 
       - scripts
       
-      ![image](Parte2/assets/image5.png)
+   ![image](Parte2/assets/image5.png)
+
+
+      - configuração da conexão (para ambos os servers)
+
+       - localização do persistence.xml
+      
+   ![image](Parte2/assets/image6.png)
+
+       - configuração das credênciais, banco e porta
+      
+   ![image](Parte2/assets/image7.png)
 
 
   - Resutaldos esperados  
