@@ -46,7 +46,7 @@ do tipo console, no modelo Ant padrão
 
   -Resultado esperado
       
-  ![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/549dbb5f-2961-443c-a399-1872585e38d1)
+  ![image](Parte1/assets/image1.png)
 
 
 
