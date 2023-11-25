@@ -1,0 +1,4 @@
+INSERT INTO PessoaFisica (IDPessoa, CPF)
+VALUES 
+(1, '123.456.789-00'),
+(2, '987.654.321-00');

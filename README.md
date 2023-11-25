@@ -64,7 +64,7 @@ do tipo console, no modelo Ant padrão
       
   ![image](Parte1/assets/image1.png)
 
-  # A Banco e sua conexão
+  ## Banco e sua conexão
 
    - Considerando a existência do banco sql server conforme em especificação. a configuração da conexão é feita no arquivo persistence.xml conforme indicado abaixo
    
@@ -97,7 +97,31 @@ do tipo console, no modelo Ant padrão
 
   - Outro ponteo foi que essa solução fez com que o numero de conexões ao banco aumentasse e devido a isso surgiu problema de limitação de conexões ao sql server express. A soluçãofoi adotar o postgres, que funcionou sem problemas.
 
-    
+      - Ativando Server 1
+
+   ![image](Parte2/assets/image1.png)  
+
+      - Ativando Server 2
+
+   ![image](Parte2/assets/image2.png)
+
+      - Ativando Client 
+
+   ![image](Parte2/assets/image3.png)
+
+  
+  ## Banco e sua conexão
+
+    - Etapas de configuração do postgres
+      - Necessária a existencia da instalação já ativada para que se faça a criação do banco e execução do script das tabelas que pode ser encontrado na pasta info conforme figura abaixo
+     
+      - pasta info
+
+      ![image](Parte2/assets/image4.png)
+
+      - scripts
+      
+      ![image](Parte2/assets/image5.png)
 
 
   - Resutaldos esperados  

@@ -1,0 +1,4 @@
+INSERT INTO Usuario (Login, Senha)
+VALUES 
+('op1', 'op1'),
+('op2', 'op2');
