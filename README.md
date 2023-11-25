@@ -122,7 +122,16 @@ do tipo console, no modelo Ant padrão
 
    ![image](Parte2/assets/image4.png)
 
-      - scripts
+
+      - criação do banco
+      
+   ![image](Parte2/assets/create%20db%20prostgress.png)
+
+         - interface para geração dos scripts
+      
+   ![image](Parte2/assets/execute%20script%20table.png)
+
+      - scripts a serem executados na sequencia
       
    ![image](Parte2/assets/image5.png)
 
@@ -139,10 +148,22 @@ do tipo console, no modelo Ant padrão
 
 
   - Resutaldos esperados  
+ 
+      - Autenticação via client
+            
+   ![image](Parte2/assets/etapa1%20login.png)
+ 
+      - Listagem de produtos
+            
+   ![image](Parte2/assets/lista%20produtos.png)
+    
+      - Inclusão de movimento de entrada
+            
+   ![image](Parte2/assets/cadastro%20movimento%20E.png)
 
-![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/3f5794a1-1ed9-4493-b921-8319ebbee116)
-
-![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/9d66b014-4716-4aff-99b9-ee0de85e7906)
+      - listagem contendo movimento de entrada
+            
+   ![image](Parte2/assets/resultado%20movimento%20E.png)
 
 - Os relatórios podem ser encontrados na pasta raiz
 

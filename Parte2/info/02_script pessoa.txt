@@ -1,0 +1,11 @@
+INSERT INTO Pessoa (Nome, Logradouro, Cidade, Estado, Telefone, Email)
+VALUES 
+('João Silva', 'Rua das Flores, 123', 'São Paulo', 'SP', '11912345678', 'joao.silva@email.com'),
+('Maria Oliveira', 'Av. Paulista, 500', 'São Paulo', 'SP', '11987654321', 'maria.oliveira@email.com');
+
+
+
+INSERT INTO Pessoa (Nome, Logradouro, Cidade, Estado, Telefone, Email)
+VALUES 
+('Americanas sa', 'Rua bela, 23', 'Rio de Janeiro', 'RJ', '11912345678', 'contato.americanas@email.com'),
+('Mercadim baratin', 'Av. flores, 10', 'Rio de Janeiro', 'RJ', '11987654321', 'contato.mercadim@email.com');

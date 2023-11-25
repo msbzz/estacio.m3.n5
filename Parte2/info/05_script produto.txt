@@ -1,4 +1,5 @@
 INSERT INTO Produto (Nome, Quantidade, PrecoVenda)
 VALUES 
 ('Banana Prata', 10, '50.00'),
+('Manga', 30, '150.00'),
 ('Maçã Argentina', 20, '30.00');
