@@ -74,7 +74,7 @@ do tipo console, no modelo Ant padrão
 
     - configurações 
 
-   ![image](Parte1/assets/image6.png)
+   ![image](Parte1/assets/image5.png)
 
 
  👉 2º Procedimento | Servidor Completo e Cliente Assíncrono 
@@ -95,7 +95,7 @@ do tipo console, no modelo Ant padrão
 
   - Essa parte do trabalho deveria estar dividido em dois projetos porem devido a um problema não superado que foi a grande dificulde em se ter cadastro do movimento juntamente com a opção de listagem utilizando no mesmo objeto, mais especificamente em "Object receivedObject", na thread server foi dividida em duas threads servers sendo uma para listagem e verificação do usuario e outra para cadastro. Sendo assim a terceira foi para cliente que tem todas essas opções.
 
-  - Outro ponteo foi que essa solução fez com que o numero de conexões ao banco aumentasse e devido a isso surgiu problema de limitação de conexões ao sql server express. A soluçãofoi adotar o postgres, que funcionou sem problemas.
+  - Outro ponteo foi que essa solução fez com que o numero de conexões ao banco aumentasse e devido a isso surgiu problema de limitação de conexões ao sql server express. A solução foi adotar o postgres, que funcionou sem problemas.
 
       - Ativando Server 1
 
@@ -165,7 +165,7 @@ do tipo console, no modelo Ant padrão
             
    ![image](Parte2/assets/resultado%20movimento%20E.png)
 
-- Os relatórios podem ser encontrados na pasta raiz
+- Os relatórios RDAs podem ser encontrados na pasta raiz
 
 ![image](https://github.com/msbzz/estacio.m3.n5/assets/44148209/3c58710b-e2e9-475c-82f7-85ba5a72c9be)
 
