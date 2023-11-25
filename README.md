@@ -44,12 +44,23 @@ do tipo console, no modelo Ant padrão
 
 - Gerar Relatório discente de acompanhamento (RDA Part1.pdf) 
 
+  - Essa parte do trabalho esta dividido em dois projetos separados onde o projeto da thraad que estará atuando como servidor estará na pasta "CadastroServerPart1Server" e outro projeto que é a thread cliente que esta em "CadastroServerPart1Client"
+
+   ![image](Parte1/assets/image2.png)
+
+   - Nesse caso sera necessário ativar a thread server em primeiramente e a client em seguida onde teremos o resultado esperado.
+
+    - Ativando Server
+
+   ![image](Parte1/assets/image3.png)
+
+  - Ativando Client
+
+   ![image](Parte1/assets/image4.png)
+
   -Resultado esperado
       
   ![image](Parte1/assets/image1.png)
-
-
-
 
  👉 2º Procedimento | Servidor Completo e Cliente Assíncrono 
 
